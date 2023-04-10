@@ -1,0 +1,59 @@
+@import "_base";  
+main{
+    section{
+        &#hero{
+            background-color: $theme-01;
+            color: $theme-white;
+            .text-content{
+                .hero-text{
+                    padding: 1rem 0;
+                    h1{
+                        margin-bottom: 0.5rem;
+                    }
+                    p{
+                        padding: 1rem 0;
+                    }
+                }
+            }
+        }
+        &#services{
+            .services-title{
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+                .categories{
+                    .nav-tabs{
+                        border-bottom: 0;
+                        gap: 0.5rem;
+                        .nav-item{
+                            .nav-link{
+                                padding: 0.5rem 2rem;
+                                border-radius: 4rem;
+                                color: $theme-01-black;
+                                font-weight: 500;
+                                &.active{
+                                    border: 1px solid darken($color: $theme-white, $amount: 10);
+                                    color: $theme-02;   
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .services_List{
+                padding: 2rem 0;
+            }
+        }
+        &#projects{
+            .projects_List{
+                padding: 2rem 0;
+            }
+        }
+    }
+
+    &.gig_Detailed{
+        header{
+            padding: 1.5rem 0;
+        }
+    }
+}
