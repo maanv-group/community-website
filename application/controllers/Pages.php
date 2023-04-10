@@ -23,7 +23,7 @@ class Pages extends CI_Controller
 	function __construct()
 	{
 		parent::__construct();
-		$this->load->model("Page_status");
+		$this->load->model("Maintenance");
 	}
 	public function index()
 	{
@@ -31,7 +31,7 @@ class Pages extends CI_Controller
 			"title" => "Freelancers, Assemble! Engaging Opportunity incoming for Freelancers!",
 		);
 		$this->load->model("elements");
-		$this->Page_status->check_n_show('pages/index', $data);
+		$this->maintenance->check_n_show('pages/index', $data);
 	}
 	
 	
