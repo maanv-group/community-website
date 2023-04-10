@@ -23,21 +23,21 @@ class Pages extends CI_Controller
 	function __construct()
 	{
 		parent::__construct();
-		$this->load->model("Maintenance");
 	}
 	public function index()
 	{
+		$this->load->model("maintenance");
+		$this->load->model("elements");
 		$data["meta"] = array(
 			"title" => "Freelancers, Assemble! Engaging Opportunity incoming for Freelancers!",
 		);
-		$this->load->model("elements");
 		$this->maintenance->check_n_show('pages/index', $data);
 	}
 	
 	
 	// public function login()
 	// {
-	// 	$this->page_status->check_n_show('pages/login');
+	// 	$this->maintenance->check_n_show('pages/login');
 	// }
 
 	public function enroll()
@@ -45,6 +45,6 @@ class Pages extends CI_Controller
 		$data["meta"] = array(
 			"title" => "Freelancers, Assemble! Engaging Opportunity incoming for Freelancers!",
 		);
-		$this->page_status->check_n_show('pages/enroll', $data);
+		$this->maintenance->check_n_show('pages/enroll', $data);
 	}
 }
