@@ -525,5 +525,5 @@ $config['proxy_ips'] = '';
 
 
 $config['offline_views'] = array(
-    "Pages/index"
+    "pages/index"
 );
