@@ -31,7 +31,7 @@ class Pages extends CI_Controller
 			"title" => "Freelancers, Assemble! Engaging Opportunity incoming for Freelancers!",
 		);
 		$this->load->model("elements");
-		$this->page_status->check_n_show('pages/index', $data);
+		$this->Page_status->check_n_show('pages/index', $data);
 	}
 	
 	
