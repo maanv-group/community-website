@@ -25,13 +25,13 @@ class Pages extends CI_Controller
 			"title" => "Freelancers, Assemble! Engaging Opportunity incoming for Freelancers!",
 		);
 		$this->load->model("elements");
-		$this->load->view('pages/index', $data);
+		$this->page_status->check_n_show('pages/index', $data);
 	}
 	
 	
 	// public function login()
 	// {
-	// 	$this->load->view('pages/login');
+	// 	$this->page_status->check_n_show('pages/login');
 	// }
 
 	public function enroll()
@@ -39,6 +39,6 @@ class Pages extends CI_Controller
 		$data["meta"] = array(
 			"title" => "Freelancers, Assemble! Engaging Opportunity incoming for Freelancers!",
 		);
-		$this->load->view('pages/enroll', $data);
+		$this->page_status->check_n_show('pages/enroll', $data);
 	}
 }
