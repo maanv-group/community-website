@@ -7,6 +7,7 @@
 </head>
 
 <body>
+    <?php $this->load->view("components/header_nonav"); ?>
     <main class="status_maintenance">
         <div class="row m-0 justify-content-center">
             <div class="col-xxl-8 col-xl-9 col-lg-10 col-md-11 col-12">
@@ -22,7 +23,7 @@
                             <div class="desc">
                                 <p>We are improving our website!</p>
                                 <p>
-                                    We'll back on <?= date("F j, Y");?>
+                                    We'll back on May 31, 2023.
                                 </p>
                             </div>
                         </div>
@@ -31,6 +32,7 @@
             </div>
         </div>
     </main>
+    <!-- <?php $this->load->view("components/footer") ?> -->
 </body>
 
 </html>
