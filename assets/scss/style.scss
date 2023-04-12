@@ -51,6 +51,25 @@ main{
         }
     }
 
+    &.status_maintenance{
+        background-color: $theme-01;
+        padding: 10% 0;
+        font-size: 20px;
+        h1{
+            font-size: 4rem;
+            span{
+                display: block;
+            }
+        }
+        p{
+            font-size: 1.2rem;
+        }
+        .text-content{
+            min-height: 50vh;
+            color: $theme-white;
+        }
+
+    }
     &.gig_Detailed{
         header{
             padding: 1.5rem 0;

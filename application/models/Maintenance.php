@@ -6,7 +6,7 @@ class Maintenance extends CI_Model{
     }
     public function check_n_show($view, $data){
         if(in_array($view,$this->config->item("offline_views"))){
-            $this->load->view("status/maintenance");
+            $this->load->view("status/maintenance", $data);
         } else {
             $this->load->view($view, $data);
         }
