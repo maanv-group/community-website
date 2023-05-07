@@ -6,10 +6,10 @@
 <link rel="stylesheet" href="<?= base_url() ?>assets/css/style.min.css">
 
 <?php
-foreach ($meta as $key => $value) {?>
+foreach ($meta["page"] as $key => $value) {?>
 <meta name="<?= $key ?>" content="<?= $value ?>">
 <?php 
 }
 ?>
 
-<title><?= $meta["title"]; ?></title>
+<title><?= $meta["page"]["title"]; ?></title>

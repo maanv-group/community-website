@@ -70,15 +70,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | The $query_builder variables lets you determine whether or not to load
 | the query builder class.
 */
-$active_group = 'development';
+$active_group = 'production';
 $query_builder = TRUE;
 
-$db['development'] = array(
+$db['production'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'fyndzone_database',
+	'hostname' => '151.106.116.205',
+	'username' => 'u862955700_admin1',
+	'password' => 'Admin1@skillsurge',
+	'database' => 'u862955700_skillsurge',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

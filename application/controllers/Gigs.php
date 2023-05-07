@@ -21,14 +21,32 @@ class Gigs extends CI_Controller
 	 */
 	public function all()
 	{
-		$this->load->model("elements");
-		$this->load->view('pages/gigs/all');
+		$this->load->model("AppData");
+		// $query = $this->db->get("gigs_test");
+		$query = $this->db->query("SELECT * FROM gigs_test WHERE `avg_rating` = '5.0' ORDER BY `avg_rating` ASC LIMIT 8");
+		$data["gigs"]["top"] = $query->result();
+
+
+		$data["meta"]["page"] = array(
+			"title" => "Freelancers, Assemble! Engaging Opportunity incoming for Freelancers!",
+		);
+		$this->load->view('pages/gigs/all', $data);
 	}
 
 	public function detail($gigSlug)
 	{
 		$data["slug"] = $gigSlug;
 		$this->load->model("elements");
+		$this->load->view('pages/gigs/detail', $data);
+	}
+	
+	public function new()
+	{
+		$this->load->model("AppData");
+		$data["slug"] = "";
+		$data["meta"]["page"] = array(
+			"title" => "Freelancers, Assemble! Engaging Opportunity incoming for Freelancers!",
+		);
 		$this->load->view('pages/gigs/detail', $data);
 	}
 	

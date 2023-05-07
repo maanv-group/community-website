@@ -32,7 +32,7 @@
             </div>
         </div>
     </main>
-    <!-- <?php $this->load->view("components/footer") ?> -->
+    <?php $this->load->view("components/footer") ?>
 </body>
 
 </html>

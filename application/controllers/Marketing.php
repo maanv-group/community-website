@@ -21,7 +21,7 @@ class Marketing extends CI_Controller
 	 */
 	public function freelancer()
 	{
-		$data["meta"] = array(
+		$data["meta"]["page"] = array(
 			"title" => "Freelancers, Assemble! Engaging Opportunity incoming for Freelancers!",
 		);
 		$this->load->model("elements");
@@ -30,7 +30,7 @@ class Marketing extends CI_Controller
 
 	public function end_user()
 	{
-		$data["meta"] = array(
+		$data["meta"]["page"] = array(
 			"title" => "Freelancers, Assemble! Engaging Opportunity incoming for Freelancers!",
 		);
 		$this->load->model("elements");

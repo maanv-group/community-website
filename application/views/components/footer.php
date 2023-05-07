@@ -12,6 +12,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="">Site&nbsp;Map</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" title="Frequently Asked Questions">FAQ</a>
+                    </li>
                 </ul>
                 <ul class="nav">
                     <li class="nav-item">

@@ -28,7 +28,7 @@ class Pages extends CI_Controller
 	{
 		$this->load->model("maintenance");
 		$this->load->model("elements");
-		$data["meta"] = array(
+		$data["meta"]["page"] = array(
 			"title" => "Freelancers, Assemble! Engaging Opportunity incoming for Freelancers!",
 		);
 		$this->maintenance->check_n_show('pages/index', $data);
@@ -42,7 +42,7 @@ class Pages extends CI_Controller
 
 	public function enroll()
 	{
-		$data["meta"] = array(
+		$data["meta"]["page"] = array(
 			"title" => "Freelancers, Assemble! Engaging Opportunity incoming for Freelancers!",
 		);
 		$this->maintenance->check_n_show('pages/enroll', $data);
