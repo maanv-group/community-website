@@ -19,13 +19,14 @@ class Marketing extends CI_Controller
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function freelancer()
+	public function skillsurge()
 	{
+		$this->load->model("maintenance");
+		$this->load->model("elements");
 		$data["meta"]["page"] = array(
 			"title" => "Freelancers, Assemble! Engaging Opportunity incoming for Freelancers!",
 		);
-		$this->load->model("elements");
-		$this->load->view('pages/landing/initial-01', $data);
+		$this->maintenance->check_n_show('pages/landing/initial-01', $data);
 	}
 
 	public function end_user()
@@ -36,7 +37,7 @@ class Marketing extends CI_Controller
 		$this->load->model("elements");
 		$this->load->view('pages/landing/initial-02', $data);
 	}
-	
+
 	// public function login()
 	// {
 	// 	$this->load->view('pages/login');

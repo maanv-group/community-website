@@ -20,7 +20,7 @@
                                             <div class="title">
                                                 <h1>With Talented Freelancers, Do More Work!</h1>
                                                 <p class="mb-3">
-                                                    Engaging Community for Freelancers is here! You can work, collab, co-create whatever you want, the way you want!
+                                                    Join a vibrant network of talented freelancers from around the world. Whether yyou're a seasoned professional or just starting your freelancing journey, our community is here to support, connect and empower you.
                                                 </p>
                                                 <a href="" class="btn-theme-02-rounded-outlined mx-1">Find&nbsp;Work<div class="icon"></div></a>
                                                 <a href="" class="btn-theme-02-rounded m-1">Find&nbsp;Talent<div class="icon"></div></a>
@@ -86,6 +86,9 @@
                     <div class="row m-0 justify-content-center">
                         <div class="col-xxl-8 col-xl-9 col-lg-10 col-md-11 col-12">
                             <div class="title mb-4">
+                                <p>
+                                    Why choose SkillSurge?
+                                </p>
                                 <h2>
                                     A whole world of freelance talent at your fingertips
                                 </h2>
@@ -122,6 +125,66 @@
                         </div>
                     </div>
 
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="row m-0 justify-content-center">
+                <div class="col-xxl-8 col-xl-9 col-lg-10 col-md-11 col-12">
+                    <div class="section-title">
+                        <h2>Willing to do something?</h2>
+                        <p>
+                            This platform is a place for people to share things they are willing to do.
+                        </p>
+                    </div>
+                    <div class="steps">
+                        <div class="row">
+                            <div class="col-xl-3 col-md-6 col-12">
+                                <div class="step">
+                                    <div class="icon">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="desc">
+                                        <h4>Post a Gig</h4>
+                                        <p>It's free and easy to post a job. Simply fill in a title, description.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6 col-12">
+                                <div class="step">
+                                    <div class="icon">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="desc">
+                                        <h4>Set some deliverables</h4>
+                                        <p>It's free and easy to post a job. Simply fill in a title, description.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6 col-12">
+                                <div class="step">
+                                    <div class="icon">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="desc">
+                                        <h4>Post a Job</h4>
+                                        <p>It's free and easy to post a job. Simply fill in a title, description.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6 col-12">
+                                <div class="step">
+                                    <div class="icon">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="desc">
+                                        <h4>Post a Job</h4>
+                                        <p>It's free and easy to post a job. Simply fill in a title, description.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
