@@ -21,10 +21,8 @@ class Gigs extends CI_Controller
 	 */
 	public function all()
 	{
-		$this->load->model("AppData");
-		// $query = $this->db->get("gigs_test");
-		$query = $this->db->query("SELECT * FROM gigs_test WHERE `avg_rating` = '5.0' ORDER BY `avg_rating` ASC LIMIT 8");
-		$data["gigs"]["top"] = $query->result();
+		$this->load->model("GigsData");
+		$data["gigs"]["top"] = $this->GigsData->get_trending_gigs();
 
 
 		$data["meta"]["page"] = array(
