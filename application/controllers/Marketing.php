@@ -19,7 +19,7 @@ class Marketing extends CI_Controller
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function skillsurge()
+	public function collabora()
 	{
 		$this->load->model("maintenance");
 		$this->load->model("elements");

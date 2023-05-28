@@ -21,12 +21,24 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Collaborations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact&nbsp;Us</a>
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Landing Pages
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="<?= base_url()?>Marketing/freelancer">Landing Page 1</a></li>
+                            <li><a class="dropdown-item" href="<?= base_url() ?>Marketing/freelancer">Landing Page 1</a></li>
                         </ul>
                     </li>
                     <!-- 

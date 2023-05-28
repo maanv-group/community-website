@@ -10,6 +10,11 @@ nav.navbar {
 		}
 	}
 	ul.navbar-nav {
+		.dropdown-menu.megamenu {
+			min-width: 68vw;
+			left: -200%;
+			padding: 2rem;
+		}
 		.nav-item {
 			padding: 0.75rem;
             &.categories{

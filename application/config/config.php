@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-// $config['base_url'] = 'http://localhost/maanv-group/community-website/';
 $config['base_url'] = 'https://app.maanv.co.in/';
+// $config['base_url'] = 'http://localhost/maanv-group/community-website/';
 
 /*
 |--------------------------------------------------------------------------
