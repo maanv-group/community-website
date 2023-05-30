@@ -1,13 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+$brand-color: #5bbb7b;
+
+$theme-primary: #5bbb7b;
+$theme-light-shade: #f1f2ed;
+$theme-light-accent-01:#7a9086;
+$theme-light-accent-02:#777c67;
+$theme-dark-accent-01:#826b55;
+$theme-dark-accent-02:#ad3f54;
+$theme-dark-shade-01:#243734;
+$theme-dark-shade-02:#2c384d;
 $theme-01: #1f4b3f;
-$theme-02: #5bbb7b;
-$theme-01-black: #1d2020;
-$theme-white: #fff;
+$theme-01-black: $theme-dark-shade-01;
+$theme-white: $theme-light-shade;
 
 $colors: (
 	"01": $theme-01,
-	"02": $theme-02,
+	"02": $brand-color,
 	"white": $theme-white,
 	"01-black": $theme-01-black,
 );
@@ -36,7 +45,7 @@ a{
 	&:hover,
 	&:active
 	{
-		color: $theme-02;
+		color: $brand-color;
 	}
 }
 
@@ -99,13 +108,13 @@ a.btn {
 			}
 			&:focus {
 				box-shadow: none;
-				box-shadow: 0 0 2px rgba($color: $theme-02, $alpha: 0.5);
+				box-shadow: 0 0 2px rgba($color: $brand-color, $alpha: 0.5);
 			}
 		}
 		input[type="submit"] {
 			border-radius: 3rem;
 			padding: 1rem 2rem;
-			background-color: $theme-02;
+			background-color: $brand-color;
 			color: $theme-white;
 			font-weight: bold;
 		}
@@ -143,7 +152,7 @@ a.btn {
 				background-color: $theme-white;
 				border-radius: 50%;
 				&:hover {
-					background-color: $theme-02;
+					background-color: $brand-color;
 				}
 			}
 		}
@@ -173,8 +182,6 @@ a.btn {
 	}
 }
 
-
-
 .project_Single {
 	height: 100%;
 	border: 1px solid darken($color: $theme-white, $amount: 5);
@@ -193,7 +200,7 @@ a.btn {
 			cursor: pointer;
 			border-radius: 50%;
 			&:hover {
-				background-color: $theme-02;
+				background-color: $brand-color;
 			}
 		}
 		.media-content {
@@ -212,7 +219,7 @@ a.btn {
 			padding: 1rem;
 			.project_Employer {
 				margin-bottom: 0.5rem;
-				color: $theme-02;
+				color: $brand-color;
 			}
 			.project_Heading {
 				h6 {
@@ -232,6 +239,21 @@ a.btn {
 		margin: 1rem;
 		padding: 1rem 0;
 		border-top: 1px solid darken($color: $theme-white, $amount: 20);
+	}
+}
+
+.accordion{
+	.accordion-item{
+		.accordion-button{
+			border-bottom: 1px solid;
+		}
+		&:first-of-type .accordion-button,
+		.accordion-button[aria-expanded="true"]{
+			border-color: $theme-dark-accent-01;
+		}
+		.accordion-button[aria-expanded="false"]{
+			border-color: transparent;
+		}
 	}
 }
 

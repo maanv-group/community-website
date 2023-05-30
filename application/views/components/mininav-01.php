@@ -22,16 +22,16 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="<?= base_url()?>marketing/collabora#why-collabora">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Work</a>
+                        <a class="nav-link" href="<?= base_url()?>marketing/collabora#for-clients">Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Collaborations</a>
+                        <a class="nav-link" href="<?= base_url()?>marketing/collabora#for-freelancers">Collaborations</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact&nbsp;Us</a>
+                        <a class="nav-link" href="<?= base_url()?>marketing/collabora#contact-us">Contact&nbsp;Us</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

@@ -30,7 +30,7 @@
                                 </div>
                                 <div class="counter">
                                     <div class="row">
-                                        <div class="col-xl-3 col-lg-6 col-12">
+                                        <div class="col-xl-3 col-lg-6 col-xs-6 col-12">
                                             <div class="count-card">
                                                 <div class="count">
                                                     <h3>190+</h3>
@@ -40,7 +40,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-xl-3 col-lg-6 col-12">
+                                        <div class="col-xl-3 col-lg-6 col-xs-6 col-12">
                                             <div class="count-card">
                                                 <div class="count">
                                                     <h3>50+</h3>
@@ -50,7 +50,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-xl-3 col-lg-6 col-12">
+                                        <div class="col-xl-3 col-lg-6 col-xs-6 col-12">
                                             <div class="count-card">
                                                 <div class="count">
                                                     <h3>1000+</h3>
@@ -60,7 +60,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-xl-3 col-lg-6 col-12">
+                                        <div class="col-xl-3 col-lg-6 col-xs-6 col-12">
                                             <div class="count-card">
                                                 <div class="count">
                                                     <h3>1000+</h3>
@@ -149,10 +149,10 @@
                     </div>
                     <div class="steps">
                         <div class="row">
-                            <div class="col-xl-3 col-md-6 col-12">
+                            <div class="col-xl-3 col-md-6 col-xs-6 col-12">
                                 <div class="step">
                                     <div class="icon">
-                                        <img src="" alt="">
+                                        <i class="fa-solid fa-briefcase"></i>
                                     </div>
                                     <div class="desc">
                                         <h4>Post a Gig</h4>
@@ -160,10 +160,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-6 col-12">
+                            <div class="col-xl-3 col-md-6 col-xs-6 col-12">
                                 <div class="step">
                                     <div class="icon">
-                                        <img src="" alt="">
+                                        <i class="fa-solid fa-bullseye"></i>
                                     </div>
                                     <div class="desc">
                                         <h4>Set Deliverables</h4>
@@ -171,10 +171,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-6 col-12">
+                            <div class="col-xl-3 col-md-6 col-xs-6 col-12">
                                 <div class="step">
                                     <div class="icon">
-                                        <img src="" alt="">
+                                        <i class="fa-solid fa-eye"></i>
                                     </div>
                                     <div class="desc">
                                         <h4>Monetize Your Skills</h4>
@@ -182,10 +182,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-6 col-12">
+                            <div class="col-xl-3 col-md-6 col-xs-6 col-12">
                                 <div class="step">
                                     <div class="icon">
-                                        <img src="" alt="">
+                                        <i class="fa-solid fa-handshake-angle"></i>
                                     </div>
                                     <div class="desc">
                                         <h4>Collaborate or Get Hired</h4>
@@ -209,10 +209,10 @@
                     </div>
                     <div class="steps">
                         <div class="row">
-                            <div class="col-xl-3 col-md-6 col-12">
+                            <div class="col-xl-3 col-md-6 col-xs-6 col-12">
                                 <div class="step">
                                     <div class="icon">
-                                        <img src="" alt="">
+                                        <i class="fa-solid fa-briefcase"></i>
                                     </div>
                                     <div class="desc">
                                         <h4>Post a Job</h4>
@@ -220,10 +220,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-6 col-12">
+                            <div class="col-xl-3 col-md-6 col-xs-6 col-12">
                                 <div class="step">
                                     <div class="icon">
-                                        <img src="" alt="">
+                                        <i class="fa-solid fa-briefcase"></i>
                                     </div>
                                     <div class="desc">
                                         <h4>Choose a Freelancer</h4>
@@ -231,10 +231,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-6 col-12">
+                            <div class="col-xl-3 col-md-6 col-xs-6 col-12">
                                 <div class="step">
                                     <div class="icon">
-                                        <img src="" alt="">
+                                        <i class="fa-solid fa-briefcase"></i>
                                     </div>
                                     <div class="desc">
                                         <h4>Share Requirements</h4>
@@ -242,10 +242,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-6 col-12">
+                            <div class="col-xl-3 col-md-6 col-xs-6 col-12">
                                 <div class="step">
                                     <div class="icon">
-                                        <img src="" alt="">
+                                        <i class="fa-solid fa-briefcase"></i>
                                     </div>
                                     <div class="desc">
                                         <h4>Pay Safely</h4>
@@ -502,7 +502,7 @@
         <section id="faq">
             <div class="row m-0 justify-content-center">
                 <div class="col-xxl-8 col-xl-9 col-lg-10 col-md-11 col-12">
-                    <div class="title text-center">
+                    <div class="section-title text-center">
                         <h2>Frequently Asked Questions</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem repudiandae expedita alias veniam deserunt perspiciatis possimus eligendi velit. Cum, mollitia.
@@ -550,6 +550,9 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <section id="contact-us">
+
         </section>
         <p>
             Join a vibrant network of talented freelancers from around the world. Whether you're a seasoned professional or just starting your freelancing journey, our community is here to support, connect, and empower you.
