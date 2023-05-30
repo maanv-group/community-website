@@ -30,7 +30,7 @@
                                 </div>
                                 <div class="counter">
                                     <div class="row">
-                                        <div class="col-xl-3 col-lg-6 col-sm-6 col-12">
+                                        <div class="col-xl-3 col-lg-6 col-6">
                                             <div class="count-card">
                                                 <div class="count">
                                                     <h3>190+</h3>
@@ -40,7 +40,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-xl-3 col-lg-6 col-sm-6 col-12">
+                                        <div class="col-xl-3 col-lg-6 col-6">
                                             <div class="count-card">
                                                 <div class="count">
                                                     <h3>50+</h3>
@@ -50,7 +50,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-xl-3 col-lg-6 col-sm-6 col-12">
+                                        <div class="col-xl-3 col-lg-6 col-6">
                                             <div class="count-card">
                                                 <div class="count">
                                                     <h3>1000+</h3>
@@ -60,7 +60,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-xl-3 col-lg-6 col-sm-6 col-12">
+                                        <div class="col-xl-3 col-lg-6 col-6">
                                             <div class="count-card">
                                                 <div class="count">
                                                     <h3>1000+</h3>
