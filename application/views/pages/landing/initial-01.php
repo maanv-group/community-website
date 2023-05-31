@@ -84,7 +84,7 @@
                 <div class="col-lg-10 col-md-11 col-12">
                     <div class="row m-0 align-items-center">
                         <div class="col-md-6">
-                            <div class="media-content">
+                            <div class="media-content mb-3">
                                 <div class="wrap">
                                     <img src="<?= base_url() ?>assets/media/img/about5.jpg" alt="">
                                 </div>
@@ -93,7 +93,7 @@
                         <div class="col-md-6">
                             <div class="row m-0 justify-content-center">
                                 <div class="col-xxl-8 col-xl-9 col-lg-10 col-md-11 col-12">
-                                    <div class="title mb-4">
+                                    <div class="section-title mb-4">
                                         <p>
                                             Why choose Collabora?
                                         </p>
@@ -147,10 +147,10 @@
                             This platform is a place for people to share things they are willing to do.
                         </p>
                     </div>
-                    <div class="step mb-2s">
+                    <div class="steps">
                         <div class="row">
-                            <div class="col-xl-3 col-md-6 col-sm-6 col-12">
-                                <div class="step mb-2">
+                            <div class="col-xl-3 col-md-6 col-sm-6 col-12 mb-3">
+                                <div class="step">
                                     <div class="icon">
                                         <i class="fa-solid fa-briefcase"></i>
                                     </div>
@@ -160,8 +160,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-6 col-sm-6 col-12">
-                                <div class="step mb-2">
+                            <div class="col-xl-3 col-md-6 col-sm-6 col-12 mb-3">
+                                <div class="step">
                                     <div class="icon">
                                         <i class="fa-solid fa-bullseye"></i>
                                     </div>
@@ -171,8 +171,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-6 col-sm-6 col-12">
-                                <div class="step mb-2">
+                            <div class="col-xl-3 col-md-6 col-sm-6 col-12 mb-3">
+                                <div class="step">
                                     <div class="icon">
                                         <i class="fa-solid fa-eye"></i>
                                     </div>
@@ -182,8 +182,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-6 col-sm-6 col-12">
-                                <div class="step mb-2">
+                            <div class="col-xl-3 col-md-6 col-sm-6 col-12 mb-3">
+                                <div class="step">
                                     <div class="icon">
                                         <i class="fa-solid fa-handshake-angle"></i>
                                     </div>
@@ -207,10 +207,10 @@
                             Most-viewed and all-time top-selling services
                         </p>
                     </div>
-                    <div class="step mb-2s">
+                    <div class="steps">
                         <div class="row">
-                            <div class="col-xl-3 col-md-6 col-sm-6 col-12">
-                                <div class="step mb-2">
+                            <div class="col-xl-3 col-md-6 col-sm-6 col-12 mb-3">
+                                <div class="step">
                                     <div class="icon">
                                         <i class="fa-solid fa-briefcase"></i>
                                     </div>
@@ -220,8 +220,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-6 col-sm-6 col-12">
-                                <div class="step mb-2">
+                            <div class="col-xl-3 col-md-6 col-sm-6 col-12 mb-3">
+                                <div class="step">
                                     <div class="icon">
                                         <i class="fa-solid fa-briefcase"></i>
                                     </div>
@@ -231,8 +231,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-6 col-sm-6 col-12">
-                                <div class="step mb-2">
+                            <div class="col-xl-3 col-md-6 col-sm-6 col-12 mb-3">
+                                <div class="step">
                                     <div class="icon">
                                         <i class="fa-solid fa-briefcase"></i>
                                     </div>
@@ -242,8 +242,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-6 col-sm-6 col-12">
-                                <div class="step mb-2">
+                            <div class="col-xl-3 col-md-6 col-sm-6 col-12 mb-3">
+                                <div class="step">
                                     <div class="icon">
                                         <i class="fa-solid fa-briefcase"></i>
                                     </div>
@@ -499,6 +499,38 @@
                 </div>
             </div>
         </section> -->
+        <section id="contact-us">
+            <div class="row m-0 justify-content-center">
+                <div class="col-xxl-8 col-xl-9 col-lg-10 col-md-11 col-12">
+                    <div class="section-title">
+                        <h2>Contact Us</h2>
+                        <p>
+                            We'd love to talk about how we can help you.
+                        </p>
+                    </div>
+                    <div class="text-content">
+                    <div class="keep-touch">
+                        <div class="title">
+                        <h3>Keep in touch with us.</h3>
+                        <p>We are available at below points to get you resolved for any queries you have.</p>
+                        </div>
+                        <div class="chip-set">
+                            <div class="contact-chip"></div>
+                            <div class="contact-chip"></div>
+                            <div class="contact-chip"></div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="map">
+            <div class="row justify-content-center">
+                <div class="col-md-11 col-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.672643328343!2d72.96364367590803!3d19.16580154914596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b98a9d7a1af9%3A0x954db4c09383f9b3!2sMaanv%20Group!5e0!3m2!1sen!2sin!4v1685508885483!5m2!1sen!2sin" height="500" style="border:0; width:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
         <section id="faq">
             <div class="row m-0 justify-content-center">
                 <div class="col-xxl-8 col-xl-9 col-lg-10 col-md-11 col-12">
@@ -550,9 +582,6 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="contact-us">
-
         </section>
         <p>
             Join a vibrant network of talented freelancers from around the world. Whether you're a seasoned professional or just starting your freelancing journey, our community is here to support, connect, and empower you.
