@@ -95,7 +95,7 @@
                             <div class="col-xl-3 col-md-6 col-12">
                                 <div class="step">
                                     <div class="icon">
-                                        <img src="" alt="">
+                                        <img src="https://placehold.co/200x150" class="mb-3" alt="">
                                     </div>
                                     <div class="desc">
                                         <h4>Post a Job</h4>
@@ -106,7 +106,7 @@
                             <div class="col-xl-3 col-md-6 col-12">
                                 <div class="step">
                                     <div class="icon">
-                                        <img src="" alt="">
+                                        <img src="https://placehold.co/200x150" class="mb-3" alt="">
                                     </div>
                                     <div class="desc">
                                         <h4>Post a Job</h4>
@@ -117,7 +117,7 @@
                             <div class="col-xl-3 col-md-6 col-12">
                                 <div class="step">
                                     <div class="icon">
-                                        <img src="" alt="">
+                                        <img src="https://placehold.co/200x150" class="mb-3" alt="">
                                     </div>
                                     <div class="desc">
                                         <h4>Post a Job</h4>
@@ -128,7 +128,7 @@
                             <div class="col-xl-3 col-md-6 col-12">
                                 <div class="step">
                                     <div class="icon">
-                                        <img src="" alt="">
+                                        <img src="https://placehold.co/200x150" class="mb-3" alt="">
                                     </div>
                                     <div class="desc">
                                         <h4>Post a Job</h4>
@@ -175,7 +175,7 @@
                                                 <div class="service_Body">
                                                     <div class="media-content">
                                                         <div class="image">
-                                                            <img src="" alt="">
+                                                            <img src="https://placehold.co/200x150" class="mb-3" alt="">
                                                         </div>
                                                         <div class="like_Button"></div>
                                                     </div>
@@ -194,7 +194,7 @@
                                                 <div class="service_Footer">
                                                     <div class="service_Profile">
                                                         <a href="">
-                                                            <img src="" alt="">
+                                                            <img src="https://placehold.co/200x150" class="mb-3" alt="">
                                                             <span>John Powell</span>
                                                         </a>
                                                     </div>
@@ -215,7 +215,7 @@
                                                 <div class="service_Body">
                                                     <div class="media-content">
                                                         <div class="image">
-                                                            <img src="" alt="">
+                                                            <img src="https://placehold.co/200x150" class="mb-3" alt="">
                                                         </div>
                                                         <div class="like_Button"></div>
                                                     </div>
@@ -234,7 +234,7 @@
                                                 <div class="service_Footer">
                                                     <div class="service_Profile">
                                                         <a href="">
-                                                            <img src="" alt="">
+                                                            <img src="https://placehold.co/200x150" class="mb-3" alt="">
                                                             <span>John Powell</span>
                                                         </a>
                                                     </div>
@@ -255,7 +255,7 @@
                                                 <div class="service_Body">
                                                     <div class="media-content">
                                                         <div class="image">
-                                                            <img src="" alt="">
+                                                            <img src="https://placehold.co/200x150" class="mb-3" alt="">
                                                         </div>
                                                         <div class="like_Button"></div>
                                                     </div>
@@ -274,7 +274,7 @@
                                                 <div class="service_Footer">
                                                     <div class="service_Profile">
                                                         <a href="">
-                                                            <img src="" alt="">
+                                                            <img src="https://placehold.co/200x150" class="mb-3" alt="">
                                                             <span>John Powell</span>
                                                         </a>
                                                     </div>

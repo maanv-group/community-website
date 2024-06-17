@@ -94,6 +94,7 @@ $db['development'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
+
 $db['production'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
