@@ -26,6 +26,7 @@ body {
 	background-color: $theme-white;
 	color: $theme-01-black;
 	font-family: "Poppins", Arial, Helvetica, sans-serif;
+	font-weight: 400;
 }
 
 h1,
@@ -39,6 +40,7 @@ h6 {
 p {
 	margin: 0;
 	line-height: 1.5;
+	margin-bottom: 1rem;
 }
 
 a{
@@ -50,6 +52,17 @@ a{
 }
 
 @each $key, $value in $colors {
+	a.btn-theme-#{$key} {
+		display: inline-block;
+		border-radius: 0.25rem;
+		padding: 0.75rem 2rem;
+		background-color: $value;
+		color: white;
+		&:hover {
+            background-color: $value;
+            color: white;
+		}
+	}
 	a.btn-theme-#{$key}-rounded {
 		display: inline-block;
 		border-radius: 3rem;
@@ -259,7 +272,7 @@ a.btn {
 
 @media screen and (min-width: 480px) {
 	body {
-		font-size: 18px;
+		font-size: 16px;
 	}
 }
 

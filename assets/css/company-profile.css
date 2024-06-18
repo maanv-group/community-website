@@ -13,3 +13,7 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+main.company-profile {
+  padding: 0.5rem 0;
+}

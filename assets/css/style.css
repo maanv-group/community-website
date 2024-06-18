@@ -4,6 +4,7 @@ body {
   background-color: #f1f2ed;
   color: #243734;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 400;
 }
 
 h1,
@@ -18,10 +19,23 @@ h6 {
 p {
   margin: 0;
   line-height: 1.5;
+  margin-bottom: 1rem;
 }
 
 a:hover, a:active {
   color: #5bbb7b;
+}
+
+a.btn-theme-01 {
+  display: inline-block;
+  border-radius: 0.25rem;
+  padding: 0.75rem 2rem;
+  background-color: #1f4b3f;
+  color: white;
+}
+a.btn-theme-01:hover {
+  background-color: #1f4b3f;
+  color: white;
 }
 
 a.btn-theme-01-rounded {
@@ -58,6 +72,18 @@ a.btn-theme-01-rounded:hover {
   color: inherit;
 }
 
+a.btn-theme-02 {
+  display: inline-block;
+  border-radius: 0.25rem;
+  padding: 0.75rem 2rem;
+  background-color: #5bbb7b;
+  color: white;
+}
+a.btn-theme-02:hover {
+  background-color: #5bbb7b;
+  color: white;
+}
+
 a.btn-theme-02-rounded {
   display: inline-block;
   border-radius: 3rem;
@@ -92,6 +118,18 @@ a.btn-theme-02-rounded:hover {
   color: inherit;
 }
 
+a.btn-theme-white {
+  display: inline-block;
+  border-radius: 0.25rem;
+  padding: 0.75rem 2rem;
+  background-color: #f1f2ed;
+  color: white;
+}
+a.btn-theme-white:hover {
+  background-color: #f1f2ed;
+  color: white;
+}
+
 a.btn-theme-white-rounded {
   display: inline-block;
   border-radius: 3rem;
@@ -114,6 +152,18 @@ a.btn-theme-white-rounded-outlined:hover {
   border: 1px solid #f1f2ed;
   color: inherit;
   background-color: #f1f2ed;
+}
+
+a.btn-theme-01-black {
+  display: inline-block;
+  border-radius: 0.25rem;
+  padding: 0.75rem 2rem;
+  background-color: #243734;
+  color: white;
+}
+a.btn-theme-01-black:hover {
+  background-color: #243734;
+  color: white;
 }
 
 a.btn-theme-01-black-rounded {
@@ -301,7 +351,7 @@ a.btn-theme-01-black-rounded-outlined:hover {
 
 @media screen and (min-width: 480px) {
   body {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 .gig__single {
