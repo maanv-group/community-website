@@ -16,9 +16,9 @@
                             <li>About</li>
                             <li><a href="">About Us</a></li>
                             <li><a href="">Become Seller</a></li>
-                            <li><a href="">Jobs on Collabora</a></li>
+                            <li><a href="">Careers</a></li>
                             <li><a href="">Pricing</a></li>
-                            <li><a href="">Services Collabora</a></li>
+                            <li><a href="">Services</a></li>
                             <li><a href="">Terms of Service</a></li>
                         </ul>
                     </div>

@@ -190,6 +190,12 @@ a.btn-theme-01-black-rounded-outlined:hover {
   background-color: #243734;
 }
 
+.nav-pills {
+  --bs-nav-pills-link-active-bg: #1f4b3f;
+  --bs-nav-link-color: #1f4b3f;
+  --bs-nav-link-hover-color: #1f4b3f;
+}
+
 .search-engine {
   background-color: white;
   color: #243734;

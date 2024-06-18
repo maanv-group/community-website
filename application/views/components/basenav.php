@@ -1,14 +1,14 @@
 <header>
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="<?= base_url() ?>">
+            <a class="navbar-brand" href="javascript:void(0)">
                 <img src="<?= base_url() ?>assets/media/png/maanv-logo-white.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse w-100 justify-content-between" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav d-none">
                     <li class="nav-item dropdown categories">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Categories
@@ -19,7 +19,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="javascript:void(0)">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -31,16 +31,16 @@
                     </li>
                     <!-- 
                     <li class="nav-item">
-                        <a class="nav-link" disabled href="#">Browse Gigs</a>
+                        <a class="nav-link" disabled href="javascript:void(0)">Browse Gigs</a>
                     </li> 
                     <li class="nav-item">
-                        <a class="nav-link" disabled href="#">Pricing</a>
+                        <a class="nav-link" disabled href="javascript:void(0)">Pricing</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" disabled >Blogs</a>
                     </li> -->
                 </ul>
-                <ul class="navbar-nav">
+                <ul class="navbar-nav d-none">
                     <li class="nav-item">
                         <a class="nav-link" href="">Become&nbsp;a&nbsp;Seller</a>
                     </li>

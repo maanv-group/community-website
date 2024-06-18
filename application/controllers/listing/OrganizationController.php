@@ -10,9 +10,12 @@ class OrganizationController extends CI_Controller
 	}
 
 	public function single($slug){
+		if(str_contains($slug, '@')){
+			$slug = trim($slug, '@');
+		}
 		switch ($slug) {
 			case 'wa43-ea2z4otujicvoak9':
-			case 'digital-room':
+			case 'digital.room':
 				$data["meta"]["page"] = array(
 					"title" => "Best Affordable Digital Solution in Mumbai - Digital Room",
 				);
