@@ -55,7 +55,7 @@
 										</ul>
 									</div>
 								</div>
-								<hr>
+								<hr class="mb-0">
 								<div class="col-12">
 									<div class="profile-title mb-3">
 										<h5>Profile Overview</h5>
@@ -95,13 +95,16 @@
 						<div class="card-body">
 							<ul class="nav nav-pills" id="myTab" role="tablist">
 								<li class="nav-item" role="presentation">
-									<button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+									<button class="nav-link active" id="about-tab" data-bs-toggle="tab" data-bs-target="#about-tab-pane" type="button" role="tab" aria-controls="about-tab-pane" aria-selected="true">About</button>
 								</li>
 								<li class="nav-item" role="presentation">
-									<button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+									<button class="nav-link" id="services-tab" data-bs-toggle="tab" data-bs-target="#services-tab-pane" type="button" role="tab" aria-controls="services-tab-pane" aria-selected="false">Services</button>
 								</li>
 								<li class="nav-item" role="presentation">
-									<button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+									<button class="nav-link" id="gallery-tab" data-bs-toggle="tab" data-bs-target="#gallery-tab-pane" type="button" role="tab" aria-controls="gallery-tab-pane" aria-selected="false">Photo Gallery</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact Details</button>
 								</li>
 								<li class="nav-item" role="presentation">
 									<button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" disabled>Disabled</button>
@@ -110,7 +113,7 @@
 						</div>
 					</div>
 					<div class="tab-content" id="myTabContent">
-						<div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+						<div class="tab-pane fade show active" id="about-tab-pane" role="tabpanel" aria-labelledby="about-tab" tabindex="0">
 							<div class="card">
 								<div class="card-body">
 									<div class="row g-3">
@@ -128,7 +131,20 @@
 								</div>
 							</div>
 						</div>
-						<div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+						<div class="tab-pane fade" id="about-tab-pane" role="tabpanel" aria-labelledby="about-tab" tabindex="0">
+							<div class="card">
+								<div class="card-body">
+									<div class="row g-3">
+										<div class="col-12">
+											<div class="mb-3">
+												<h5>About Company</h5>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="gallery-tab-pane" role="tabpanel" aria-labelledby="gallery-tab" tabindex="0">
 							<div class="card">
 								<div class="card-body">
 									<div class="row g-3">
@@ -153,30 +169,6 @@
 													speed: 500,
 												});
 											</script>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
-							<div class="card">
-								<div class="card-body">
-									<div class="row g-3">
-										<div class="col-12">
-											<div class="mb-3">
-												<h5>About Company</h5>
-											</div>
-											<div class="">
-												<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque quo in nesciunt officia, inventore vel voluptatum saepe adipisci et debitis unde voluptates, maiores laudantium repellendus provident excepturi labore. Officia doloremque velit, commodi voluptate assumenda saepe laudantium minus excepturi! Eligendi voluptatum deleniti minima officiis deserunt reiciendis at optio, dolorem commodi accusamus, accusantium numquam consequuntur aliquid amet cupiditate tempore. Voluptate tempore, commodi fugit consequatur nihil, vero voluptates quo harum eos modi necessitatibus earum a sit distinctio consequuntur expedita, non error magnam. Soluta asperiores, possimus iusto optio molestiae veniam, distinctio harum nihil dolorem fuga vitae aut odio! Ex veritatis soluta perspiciatis quod quibusdam?</p>
-												<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum debitis delectus maiores totam, quia deleniti quo corporis porro assumenda ullam.</p>
-												<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nisi consequatur impedit natus ex dolore numquam aut? Quae consectetur adipisci distinctio enim aspernatur in. Repudiandae culpa, qui voluptates exercitationem libero, esse neque sed illum repellat nostrum veniam consequuntur, blanditiis nihil.</p>
-											</div>
-										</div>
-										<div class="col-12">
-											<div class="mb-3">
-												<h5>Gallery</h5>
-											</div>
-
 										</div>
 									</div>
 								</div>
